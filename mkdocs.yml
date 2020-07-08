@@ -1,6 +1,9 @@
 site_name: Monocodus Config Documentation
 nav:
   - Home: index.md
+  - Formatters: formatters/index.md
+  - File checkers: file_checkers/index.md
+  - Repository checkers: repo_checkers/index.md
 theme: 
   name: readthedocs
   highlightjs: true
