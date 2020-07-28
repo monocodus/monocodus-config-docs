@@ -15,6 +15,6 @@ In order for Clippy to work repository should contain file `cargo.toml`.
 
 **Available configuration parameters**
 
-|  **Name**  | **Description** |                                                                                        **Possible values**                                                                                         | **Default value** | **Mandatory** |
-| :--------: | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: | :-----------: |
-| **output** | Type of report. | <ul><li>`pass-fail` — post reports form clippy  as dedicated review comments, tied to specific strings.</li> <li>`all` — post all reports from clippy as a single comment in review body.</li><ul> |       **—**       |      No       |
+|  **Name**  | **Description** |                                                                                  **Possible values**                                                                                  | **Default value** | **Mandatory** |
+| :--------: | :-------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :---------------: | :-----------: |
+| **output** | Type of report. | <ul><li>`pass-fail` — report only short summary of issues found by clippy.</li> <li>`all` — post each clippy warning and error as dedicated comment tied to specific string.</li><ul> |       `all`       |      No       |
